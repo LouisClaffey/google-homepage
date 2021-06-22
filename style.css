@@ -275,6 +275,7 @@ ul {
 ul a {
   font-size: 14px;
   padding: 0px 7px;
+  -webkit-padding-start: 0px 7px;
 }
 
 .footer {
@@ -316,6 +317,10 @@ a:hover {
 
 .searchbar:hover {
   box-shadow: 0px 0.5px 5px 0.5px rgba(0, 0, 0, 20%);
+}
+
+.sign-in:hover {
+  cursor: pointer;
 }
 
 /* media queries */
