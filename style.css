@@ -162,7 +162,7 @@ ol {
 .navleft {
   position: absolute;
   left: 1%;
-  top: 9%;
+  top: 18%;
 }
 
 .navright {
@@ -171,6 +171,7 @@ ol {
 }
 
 li a {
+  padding: 15px 6px;
   text-decoration: none;
   font-family: arial, sans-serif;
   font-size: 13px;
@@ -180,13 +181,13 @@ li a {
 
 li {
   display: inline-block;
-  padding: 15px 6px;
   cursor: pointer;
   list-style: none;
   vertical-align: middle;
 }
 
 li img {
+  padding: 15px 6px;
   filter: invert(50%);
   -webkit-filter: invert(50%);
 }
@@ -272,10 +273,9 @@ ul {
   border-top: solid rgba(0, 0, 0, 10%) 0.1px;
 }
 
-ul a {
+ul li a {
   font-size: 14px;
-  padding: 0px 7px;
-  -webkit-padding-start: 0px 7px;
+  padding: 0px 10px 0px 10px;
 }
 
 .footer {
@@ -285,7 +285,8 @@ ul a {
 .footer-right,
 .footer-left {
   position: absolute;
-  bottom: 0%;
+  bottom: 50%;
+  top: 30%;
   opacity: 70%;
 }
 .footer-right {
